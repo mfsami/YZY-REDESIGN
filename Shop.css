@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "VCR OSD";
+  src: url(fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+body {
+  background-color: black;
+}
+
+.YZY {
+  font-family: "VCR OSD", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centers YZY */
+.CENTER-CONTAIN {
+  flex-grow: 1; /* Allows the center container to fill the available space */
+}
+
+.BAG img {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+}
+
+.HEADER {
+  display: flex; /* This makes the header a flex container */
+  justify-content: space-between; /* This spreads out the flex items; adjust as needed */
+  align-items: center; /* This vertically aligns the flex items in the middle */
+  width: 100%;
+}
+
+/*Link to click style*/
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none; /*Removes underline*/
+}
+
+/*Link after its been clicked*/
+a:visited {
+  color: rgb(255, 255, 255);
+}
