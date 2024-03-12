@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "VCR OSD";
+  src: url(fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+.YZY {
+  font-family: "VCR OSD", sans-serif;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.YZY-TXT {
+  margin-bottom: -10px;
+  font-size: 40px;
+}
+
+/*Link to click style*/
+a:link {
+  color: white;
+  text-decoration: none; /*Removes underline*/
+}
+
+/*Link after its been clicked*/
+a:visited {
+  color: white;
+}
+
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
